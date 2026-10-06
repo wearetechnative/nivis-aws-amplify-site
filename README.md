@@ -11,7 +11,7 @@ v2026.
 
 ```nix
 # flake input:
-#   amplifySite.url = "git+ssh://git@github.com/wearetechnative/nivis-aws-amplify-site?ref=v0.1.0";
+#   amplifySite.url = "git+ssh://git@github.com/wearetechnative/nivis-aws-amplify-site?ref=refs/tags/v0.1.0";
 
 site = amplifySite.nivisModules.default {
   nivis = nivis.lib;
